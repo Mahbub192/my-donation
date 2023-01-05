@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+.banner {
+  background-image: url("../images/donation3.jpg");
+  height: 35rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #98abad;
+  background-blend-mode: multiply;
+  color: #fff;
+  margin: auto;
+}
+.banner-title-description {
+  padding-top: 10rem;
+  text-align: center;
+}
+.banner-title {
+  font-weight: 700;
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+.banner-title-description p {
+  padding-bottom: 30px;
+}
+.btn-primary {
+  padding: 13px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(233, 93, 75);
+  color: #fff;
+  font-size: 18px;
+}
+
+/* section donate-today */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.donate-today {
+  padding: 110px 150px;
+  text-align: center;
+}
+.section-title {
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+.donate-description {
+  margin-bottom: 50px;
+}
+.donate-taka {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 25px;
+}
+.taka {
+  padding: 25px 15px;
+  background: rgb(239, 234, 234);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  border-radius: 5px;
+}
+.taka200 {
+  border: 3px solid rgb(244, 102, 77);
+  border-radius: 5px;
+  padding: 25px 15px;
+  background: rgb(239, 234, 234);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  color: rgb(233, 93, 75);
+}
+.oter-amount {
+  padding-bottom: 15px;
+  color: rgb(173, 168, 168);
+}
+
+/* section our-donate-plan */
+.our-donate-plan {
+  /* padding: 110px 150px; */
+}
+.section-title,
+.donate-description {
+  text-align: center;
+}
+.donate-single-list img {
+  width: 60px;
+  height: 60px;
+}
+.donate-plaint-list {
+  display: flex;
+  gap: 30px;
+}
+.donate-single-list {
+  padding: 50px 25px;
+  background: #98abad;
+}
+.list-title,
+.list-icon {
+  margin-bottom: 15px;
+}
+.list-des {
+  /* font-weight: 100; */
+  font-size: 11px;
+}
+/* description-image */
+.description-image {
+  margin-top: 130px;
+  display: flex;
+  gap: 50px;
+}
+.description-image h1 {
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+.description-image p {
+  margin-bottom: 15px;
+  color: rgb(119, 117, 117);
+}
+.description-image img {
+  height: 500px;
+  width: 550px;
+  object-fit: cover;
+  border-radius: 3%;
+}
+.input-fild {
+  width: 80%;
+  padding: 50px 40px;
+  background: goldenrod;
+}
